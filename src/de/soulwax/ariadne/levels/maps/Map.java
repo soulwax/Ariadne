@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.levels.maps;
+package de.soulwax.ariadne.levels.maps;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;

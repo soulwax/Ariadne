@@ -1,14 +1,14 @@
-package de.soulwax.ariadne.entities.levels;
+package de.soulwax.ariadne.levels;
 
-import de.soulwax.ariadne.entities.entities.Entity;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
-import java.util.ArrayList;
-import java.util.List;
+import de.soulwax.ariadne.entities.Entity;
 
 /**
  * @author Soulwax

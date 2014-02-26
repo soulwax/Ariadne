@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.entities;
+package de.soulwax.ariadne.entities;
 
 /**
  * @author Soulwax

@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.menus;
+package de.soulwax.ariadne.menus;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
@@ -8,12 +8,12 @@ import org.newdawn.slick.state.StateBasedGame;
 
 import de.soulwax.ariadne.Art;
 import de.soulwax.ariadne.Game;
-import de.soulwax.ariadne.entities.gui.Button;
-import de.soulwax.ariadne.entities.gui.SpritePreview;
-import de.soulwax.ariadne.entities.gui.StringField;
-import de.soulwax.ariadne.entities.gui.StringLabel;
-import de.soulwax.ariadne.entities.gui.Window;
-import de.soulwax.ariadne.entities.states.StartMenu;
+import de.soulwax.ariadne.gui.Button;
+import de.soulwax.ariadne.gui.SpritePreview;
+import de.soulwax.ariadne.gui.StringField;
+import de.soulwax.ariadne.gui.StringLabel;
+import de.soulwax.ariadne.gui.Window;
+import de.soulwax.ariadne.states.StartMenu;
 
 /**
  * 

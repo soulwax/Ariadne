@@ -1,9 +1,4 @@
-package de.soulwax.ariadne.entities.gui;
-
-import de.soulwax.ariadne.Colors;
-import de.soulwax.ariadne.Fonts;
-import de.soulwax.ariadne.Game;
-import de.soulwax.ariadne.entities.states.StartMenu;
+package de.soulwax.ariadne.gui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +10,11 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.gui.MouseOverArea;
 import org.newdawn.slick.state.StateBasedGame;
+
+import de.soulwax.ariadne.Colors;
+import de.soulwax.ariadne.Fonts;
+import de.soulwax.ariadne.Game;
+import de.soulwax.ariadne.states.StartMenu;
 
 /**
  * 

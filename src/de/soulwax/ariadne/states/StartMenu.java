@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.states;
+package de.soulwax.ariadne.states;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -20,10 +20,10 @@ import de.soulwax.ariadne.Fonts;
 import de.soulwax.ariadne.Game;
 import de.soulwax.ariadne.InputHandler;
 import de.soulwax.ariadne.State;
-import de.soulwax.ariadne.entities.entities.Player;
-import de.soulwax.ariadne.entities.gui.Window;
-import de.soulwax.ariadne.entities.menus.CharacterCreation;
-import de.soulwax.ariadne.entities.menus.MainMenu;
+import de.soulwax.ariadne.entities.Player;
+import de.soulwax.ariadne.gui.Window;
+import de.soulwax.ariadne.menus.CharacterCreation;
+import de.soulwax.ariadne.menus.MainMenu;
 
 /**
  * 

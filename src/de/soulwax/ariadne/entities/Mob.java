@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.entities;
+package de.soulwax.ariadne.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.SlickException;

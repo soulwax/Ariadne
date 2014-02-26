@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.entities;
+package de.soulwax.ariadne.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
@@ -8,7 +8,7 @@ import org.newdawn.slick.state.StateBasedGame;
 
 import de.soulwax.ariadne.Fonts;
 import de.soulwax.ariadne.InputHandler;
-import de.soulwax.ariadne.entities.states.Tutorial;
+import de.soulwax.ariadne.states.Tutorial;
 
 /**
  * 

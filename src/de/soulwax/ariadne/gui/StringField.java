@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.gui;
+package de.soulwax.ariadne.gui;
 
 import de.soulwax.ariadne.Fonts;
 

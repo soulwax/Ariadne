@@ -5,8 +5,8 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
-import de.soulwax.ariadne.entities.states.StartMenu;
-import de.soulwax.ariadne.entities.states.Tutorial;
+import de.soulwax.ariadne.states.StartMenu;
+import de.soulwax.ariadne.states.Tutorial;
 
 /**
  *

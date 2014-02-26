@@ -1,4 +1,4 @@
-package de.soulwax.ariadne.entities.gui;
+package de.soulwax.ariadne.gui;
 
 import org.newdawn.slick.Color;
 import org.newdawn.slick.Font;
