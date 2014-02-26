@@ -28,10 +28,7 @@ public class InputHandler implements MouseListener, KeyListener {
     public boolean lshift = false;
     
     public boolean dragged = false;
-    public boolean justPressed = false;
-    public boolean clickDragged;
-    
-    
+    public boolean justPressed = false;    
     
     public InputHandler(GameContainer container) {
     }
