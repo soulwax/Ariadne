@@ -5,10 +5,10 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.state.StateBasedGame;
 
 /**
- * User: Soulwax
- * Date: 30.01.14
- * Time: 20:49
+ * 
+ * @author Soulwax
  */
+
 public class Map {
 	private final int w, h;
 

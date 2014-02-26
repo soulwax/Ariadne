@@ -6,7 +6,7 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
-import de.soulwax.ariadne.Fonts;
+import de.soulwax.ariadne.Colors;
 import de.soulwax.ariadne.InputHandler;
 import de.soulwax.ariadne.states.Tutorial;
 
@@ -16,7 +16,7 @@ import de.soulwax.ariadne.states.Tutorial;
  */
 
 public class Player extends Mob {
-	
+
 	private Image[][] sheet;
 	private double maxSpeed = 0.35;
 	private double minSpeed = 0.2;
@@ -78,11 +78,11 @@ public class Player extends Mob {
 			}
 		}
 
-		if (!input.space) justJumped = false;
+		if (!input.space && !inAir) justJumped = false;
 
 		if (jumpCD > 0) jumpCD -= 0.1f;
 		else inAir = false;
-		
+
 		if (input.lshift && !maxSpeedReached) speed += acceleration;
 		if (!input.lshift && !minSpeedReached) speed -= negAcceleration;
 
@@ -93,12 +93,24 @@ public class Player extends Mob {
 
 	@Override
 	public void render(GameContainer container, StateBasedGame game, Graphics g) throws SlickException {
-		g.setFont(Fonts.WHITE_14_PIXELATED);
-		g.drawString("x: " + x, (float) 6, (float) 32);
-		g.drawString("y: " + y, (float) 6, (float) 48);
-		g.drawString("z: " + z, (float) 6, (float) 64);
-
+		renderShadows(g);
 		sheet[(int) xx][(int) yy].draw((float) x, (float) y - (float) z);
 	}
 
+	public double getX() {
+		return x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public double getZ() {
+		return z;
+	}
+	
+	public  void renderShadows(Graphics g) {
+		g.setColor(Colors.DARK_TRANSPARENT);
+		g.fillOval((float)x + 44,(float) y + 110,(float) xr * 8,(float) yr * 4);
+	}
 }

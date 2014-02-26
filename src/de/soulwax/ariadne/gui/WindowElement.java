@@ -13,6 +13,7 @@ public class WindowElement extends GuiElement {
 
     protected Window window;
     protected String caption;
+    
     protected float xxp, yyp;
 
     public WindowElement(int xp, int yp, int w, int h, Window window, String caption) {

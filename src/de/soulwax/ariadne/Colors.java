@@ -11,7 +11,7 @@ public class Colors {
 	public static Color DARK_TRANSPARENT = new Color(0.1f, 0.1f, 0.1f, 0.6f);
 	public static Color WHITE = new Color(1f, 1f, 1f, 1f);
 	public static Color BLACK = new Color(0f, 0f, 0f, 1f);
-
+	public static Color GREYISH_GREEN = new Color(0xff567051);
 	
 	public static Color getColor(int r, int g, int b, int alpha) {
 		return new Color(r / 255, g / 255, b / 255, alpha / 255);

@@ -36,7 +36,7 @@ public class Entity extends GameObject {
         double xn = x + xxa;
         double yn = y + yya;
         double zn = z + zza;
-        if (xn < 0 || yn < 0 || xn >= level.getWidth() * 8 || yn >= level.getHeight() * 8 || zn < 0 || zn > level.getMaxHeight()) {
+        if (xn < 0 || yn < 0 || xn >= level.getWidth() * 8 || yn >= level.getHeight() * 4 || zn < 0 || zn > level.getMaxHeight()) {
             if (zn < 0) z = 0;
             collide(null, xxa, yya, zza);
             return;
