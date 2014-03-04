@@ -70,8 +70,8 @@ public class StartMenu extends BasicGameState implements ComponentListener {
 			this.app = (AppGameContainer) container;
 		}
 
-		standardCursor = new Image("res/cursors/mouse_standard.png");
-		background = new Image("/res/bg.jpg");
+		standardCursor = new Image("cursors/mouse_standard.png");
+		background = new Image("bg.jpg");
 		container.setMouseCursor(standardCursor, 0, 0);
 
 		Fonts.init();

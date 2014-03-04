@@ -21,13 +21,13 @@ public class Fonts {
     }
 
     public static void init() throws SlickException {
-        WHITE_14_PIXELATED = new AngelCodeFont("res/fonts/14whitePIX.fnt", 
-        		new Image("res/fonts/14whitePIX_00.png"));
-        WHITE_16_PIXELATED = new AngelCodeFont("res/fonts/16whitePIX.fnt", 
-        		new Image("res/fonts/16whitePIX_00.png"));
-        WHITE_12_PIXELATED = new AngelCodeFont("res/fonts/12whitePIX.fnt", 
-        		new Image("res/fonts/12whitePIX_00.png"));
-        WHITE_14_PIXELATED_AA = new AngelCodeFont("res/fonts/14whitePIX_AA.fnt", 
-        		new Image("res/fonts/14whitePIX_AA_00.png"));
+        WHITE_14_PIXELATED = new AngelCodeFont("fonts/14whitePIX.fnt", 
+        		new Image("fonts/14whitePIX_00.png"));
+        WHITE_16_PIXELATED = new AngelCodeFont("fonts/16whitePIX.fnt", 
+        		new Image("fonts/16whitePIX_00.png"));
+        WHITE_12_PIXELATED = new AngelCodeFont("fonts/12whitePIX.fnt", 
+        		new Image("fonts/12whitePIX_00.png"));
+        WHITE_14_PIXELATED_AA = new AngelCodeFont("fonts/14whitePIX_AA.fnt", 
+        		new Image("fonts/14whitePIX_AA_00.png"));
     }
 }

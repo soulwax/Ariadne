@@ -45,9 +45,9 @@ public class CharacterCreation {
 		//window.init(container);
 
 		back = new Button(20, 500, 200, 60, window, "Back");
-		back.setupButton("res/gui/button_up_main.png", 
-				"res/gui/button_down_main.png", 
-				"res/gui/button_over_main.png");
+		back.setupButton("gui/button_up_main.png", 
+				"gui/button_down_main.png", 
+				"gui/button_over_main.png");
 		window.addElement(back);
 
 		nameField = new StringField(240, 40, 200, 30, window, "name");
@@ -58,17 +58,17 @@ public class CharacterCreation {
 		window.addElement(charNameLabel);
 
 		male = new Button(57, 100, 60, 60, window, "");
-		male.setupButton("res/gui/button_up_sqr.png", 
-				"res/gui/button_down_sqr.png", 
-				"res/gui/button_over_sqr.png",
-				"res/gui/symbols/male.png");
+		male.setupButton("gui/button_up_sqr.png", 
+				"gui/button_down_sqr.png", 
+				"gui/button_over_sqr.png",
+				"gui/symbols/male.png");
 		window.addElement(male);
 
 		female = new Button(127, 100, 60, 60, window, "");
-		female.setupButton("res/gui/button_up_sqr.png", 
-				"res/gui/button_down_sqr.png", 
-				"res/gui/button_over_sqr.png", 
-				"res/gui/symbols/female.png");
+		female.setupButton("gui/button_up_sqr.png", 
+				"gui/button_down_sqr.png", 
+				"gui/button_over_sqr.png", 
+				"gui/symbols/female.png");
 		window.addElement(female);
 
 		sheet = Art.i.femCharGreen;
@@ -77,9 +77,9 @@ public class CharacterCreation {
 		window.addElement(sheetPreview);
 		
 		start = new Button(280, 500, 200, 60, window, "Start");
-		start.setupButton("res/gui/button_up_main.png", 
-				"res/gui/button_down_main.png", 
-				"res/gui/button_over_main.png");
+		start.setupButton("gui/button_up_main.png", 
+				"gui/button_down_main.png", 
+				"gui/button_over_main.png");
 		window.addElement(start);
 		
 		menu.addWindow(window);

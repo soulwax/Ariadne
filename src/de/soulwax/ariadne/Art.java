@@ -14,8 +14,8 @@ public class Art {
 		i = new Art();
 	}
 
-	public Image[][] femCharGreen = loadAndCut("res/charsprites/sprite_fem_blond_green.png", 64, 64, 2);
-	public Image[][] basicTiles = loadAndCut("res/tiles/basicTiles.png", 16, 16, 2);
+	public Image[][] femCharGreen = loadAndCut("charsprites/sprite_fem_blond_green.png", 64, 64, 2);
+	public Image[][] basicTiles = loadAndCut("tiles/basicTiles.png", 16, 16, 2);
 
 	public Image[][] loadAndCut(String location, int sw, int sh, int scale) {
 		Image sheet;

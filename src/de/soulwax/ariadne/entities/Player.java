@@ -18,7 +18,7 @@ import de.soulwax.ariadne.states.Tutorial;
 public class Player extends Mob {
 
 	private Image[][] sheet;
-	private double maxSpeed = 0.35;
+	private double maxSpeed = 0.65;
 	private double minSpeed = 0.2;
 	private double speed = minSpeed;
 	private double acceleration = 0.025;
@@ -38,8 +38,7 @@ public class Player extends Mob {
 	public void init(GameContainer container, StateBasedGame game) throws SlickException {
 		this.x = 120;
 		this.y = 120;
-		this.z = 5;
-
+		this.z = 0;
 		input = Tutorial.input;
 	}
 

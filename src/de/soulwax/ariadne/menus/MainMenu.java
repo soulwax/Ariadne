@@ -33,16 +33,16 @@ public class MainMenu {
 
 		// Exit Button
 		exitButton = new Button(125, 500, 150, 60, window, "Exit");
-		exitButton.setupButton("res/gui/button_up_main.png", 
-				"res/gui/button_down_main.png", 
-				"res/gui/button_over_main.png");
+		exitButton.setupButton("gui/button_up_main.png", 
+				"gui/button_down_main.png", 
+				"gui/button_over_main.png");
 		window.addElement(exitButton);
 
 		// New Game Button
 		newGameButton = new Button(125, 100, 150, 60, window, "New Game");
-		newGameButton.setupButton("res/gui/button_up_main.png", 
-				"res/gui/button_down_main.png", 
-				"res/gui/button_over_main.png");
+		newGameButton.setupButton("gui/button_up_main.png", 
+				"gui/button_down_main.png", 
+				"gui/button_over_main.png");
 		window.addElement(newGameButton);
 
 		menu.addWindow(window);

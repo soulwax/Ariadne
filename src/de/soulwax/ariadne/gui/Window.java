@@ -62,7 +62,7 @@ public class Window extends GuiElement {
 	public void init(GameContainer container) throws SlickException {
 		focused = false;
 		headerArea = new MouseOverArea(MENU.getAppGameContainer(), 
-				new Image("res/gui/empty.png"), 
+				new Image("gui/empty.png"), 
 				(int) xp, (int) yp, (int) w, (int) HEADER_HEIGHT, MENU);
 	}
 
